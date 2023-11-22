@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import CounterButton from '../CounterButton/CounterButton';
 import { Flex,Box, Text } from '@chakra-ui/react';
 import './ContadorResponsive.css'
-import 'animate.css';
 
 const ContadorResponsive = () => {
 

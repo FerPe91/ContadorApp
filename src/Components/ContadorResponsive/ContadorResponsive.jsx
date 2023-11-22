@@ -32,7 +32,7 @@ const ContadorResponsive = () => {
       justifyContent='center' 
       alignItems='center' 
       flexDirection='column'
-      border="1px solid black"
+      border="1px solid white"
       borderRadius="md"        
       p={4}>
 

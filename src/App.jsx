@@ -6,7 +6,6 @@ import ContadorResponsive from './Components/ContadorResponsive/ContadorResponsi
 
 
 function App() {
-  const imagen=logo
   return (
     <ChakraProvider>
       <Box

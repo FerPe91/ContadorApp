@@ -23,7 +23,7 @@ function App() {
         flexDirection='column'
         justifyContent='center'
         alignItems='center'>
-          <Image src='/src/assets/img/logo.png' alt='logo AP' />
+          <Image src='contadorApp\src\assets\img\logo.png' alt='logo AP' />
           <Heading mt='5'>CONTADOR</Heading>
         </Flex>
         <ContadorResponsive/>

@@ -38,9 +38,15 @@ const ContadorResponsive = () => {
 
         <Flex color='white' 
           marginBottom='15px' 
-          display='flex' alignItems='center' >
-          <Box maxW='xxl' borderWidth='1px' borderRadius='lg' overflow='hidden' p="4" bg="teal.500" color="white">
-            <CounterButton text='SUMAR 1' onClick={add}/>
+          display='flex' alignItems='center' justifyContent='space-between' >
+            <Box mr='1' maxW='xxl'
+            borderWidth='1px'
+            borderRadius='lg'
+            overflow='hidden'
+            p="4" 
+            bg="green.500" 
+            color="white">
+            <CounterButton text='RESTAR 1' onClick={rest}/>
           </Box>
           <Box 
             alignItems='center'
@@ -57,17 +63,11 @@ const ContadorResponsive = () => {
               fontSize='6xl'>{count}
             </Text>
           </Box>
-          <Box maxW='xxl'
-           borderWidth='1px'
-            borderRadius='lg'
-            overflow='hidden'
-            p="4" 
-            bg="green.500" 
-            color="white">
-            <CounterButton text='RESTAR 1' onClick={rest}/>
+          <Box ml='1' maxW='xxl' borderWidth='1px' borderRadius='lg' overflow='hidden' p="4" bg="teal.500" color="white">
+            <CounterButton text='SUMAR 1' onClick={add}/>
           </Box>
         </Flex>
-        <Box  p="4" bg="red.500" color="white">
+        <Box p="4" bg="red.500" color="white">
           <CounterButton text={'REINICIAR'} onClick={reset}/>
         </Box>
       </Flex>

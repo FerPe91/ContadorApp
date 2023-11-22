@@ -33,7 +33,7 @@ const ContadorResponsive = () => {
       alignItems='center' 
       flexDirection='column'
       border="1px solid white"
-      borderRadius="md"        
+      borderRadius="md"     
       p={4}>
 
         <Flex color='white' 
@@ -63,7 +63,12 @@ const ContadorResponsive = () => {
               fontSize='6xl'>{count}
             </Text>
           </Box>
-          <Box ml='1' maxW='xxl' borderWidth='1px' borderRadius='lg' overflow='hidden' p="4" bg="teal.500" color="white">
+            <Box ml='1' 
+            maxW='xxl' 
+            borderWidth='1px' 
+            borderRadius='lg' 
+            overflow='hidden' 
+            p="4" bg="teal.500" color="white">
             <CounterButton text='SUMAR 1' onClick={add}/>
           </Box>
         </Flex>

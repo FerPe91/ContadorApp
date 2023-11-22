@@ -13,7 +13,8 @@ function App() {
       alignItems="center"
       justifyContent="center"
       minW="200px"   
-      height='100%'  
+      height='100%' 
+      mt='15'
       m="0 auto"     
       p="20px"   
       bgGradient="linear(to-r, teal.300, blue.500)">

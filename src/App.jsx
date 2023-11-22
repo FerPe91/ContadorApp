@@ -3,7 +3,6 @@ import './App.css'
 import { ChakraProvider } from '@chakra-ui/react'
 import { Box, Heading, Image, Flex } from '@chakra-ui/react';
 import ContadorResponsive from './Components/ContadorResponsive/ContadorResponsive'
-import {logo} from './assets/img/logo.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,7 +24,7 @@ function App() {
         flexDirection='column'
         justifyContent='center'
         alignItems='center'>
-          <Image src={logo} alt='logo AP' />
+          <Image src='../src/assets/img/logo.png' alt='logo AP' />
           <Heading mt='5'>CONTADOR</Heading>
         </Flex>
         <ContadorResponsive/>

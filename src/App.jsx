@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import 'animate.css';
 import { ChakraProvider } from '@chakra-ui/react'
 import { Box, Heading, Image, Flex } from '@chakra-ui/react';
 import ContadorResponsive from './Components/ContadorResponsive/ContadorResponsive'
